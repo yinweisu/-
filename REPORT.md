@@ -26,4 +26,4 @@ clf = GradientBoostingClassifier()
 (502, 509, 1.0)
 ```
 * It turns out that some features are strongly correlated with other features, such as f502 and f509, and some features are only weakly correlated with other features, such as f440 and f671. Weakly correlated features are those that are irreplaceable while strong correlated features are those somehow having similar attributes. As a result, we tried to find out the top 100 weakly correlated features and top 100 strong correlated features. 
-* Initially, we tried to 
+* Initially, we tried to add
